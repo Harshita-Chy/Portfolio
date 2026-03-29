@@ -14,9 +14,9 @@ import bg from './assets/bg.jpg'
 const App = () => {
   return (
     <div 
-      className='px-5 md:px-10 lg:px-20 py-5 min-h-screen w-full font-sans text-white overflow-x-hidden'
+      className='px-5 md:px-10 lg:px-20 py-5 min-h-screen w-full text-white overflow-x-hidden'
       style={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(${bg})`,
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(${bg})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundAttachment: 'fixed',
