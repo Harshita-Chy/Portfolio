@@ -41,4 +41,7 @@ const HeroSection = () => {
   )
 }
 
+// #0e192f
+// #112240
+
 export default HeroSection
