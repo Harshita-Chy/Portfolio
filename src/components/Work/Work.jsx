@@ -1,43 +1,46 @@
 import React from 'react'
 
 const Work = () => {
-  const projects = [
-    {
-      title: "HireHub",
-      subtitle: "Full-Stack Job Portal",
-      description: "Built a scalable MERN job portal with JWT auth and role-based access, supporting 2 user roles and 10+ REST APIs. Designed 4 MongoDB schemas with secure middleware, effectively reducing unauthorized access and improving query efficiency.",
-      tech: ["MERN Stack", "JWT Auth", "REST APIs"],
-      link: "#"
-    },
-    {
-      title: "ChatSync",
-      subtitle: "Real-Time Chat Application",
-      description: "Developed a real-time chat system enabling instant message delivery (<200ms latency) with persistent history for concurrent users. Implemented JWT authentication and optimized React state updates.",
-      tech: ["React.js", "Node.js", "Socket.io", "MongoDB"],
-      link: "#"
-    },
-    {
-      title: "To-Do List Web App",
-      subtitle: "Smart Productivity Engine",
-      description: "Engineered a responsive task manager with drag-and-drop UI and offline sync via Local Storage; boosted task efficiency by 40% in user tests.",
-      tech: ["HTML5", "CSS3", "JavaScript"],
-      link: "#"
-    },
-    {
-      title: "AI Chatbot",
-      subtitle: "Real-Time Virtual Assistant",
-      description: "Developed an AI chatbot achieving 75% response accuracy using NLP APIs and event-driven architecture with asynchronous API calls for low-latency interactions.",
-      tech: ["JavaScript", "REST APIs", "NLP"],
-      link: "#"
-    },
-    {
-      title: "Digital Twin",
-      subtitle: "AI-Powered Infrastructure Simulation",
-      description: "Built an ANN-based deep learning system trained on real-world water supply datasets to simulate pipeline operations and predict real-time leak detection and supply-demand fluctuations.",
-      tech: ["Deep Learning", "ANN", "Python", "Flask", "Data Simulation"],
-      link: "https://github.com/Harshita-Chy/Digital_Twin.git"
-    }
-  ]
+
+const projects = [
+  {
+    title: "NOICE",
+    subtitle: "AI-Powered Noise Monitoring & Analysis",
+    description: "Developed an intelligent noise monitoring system that analyzes environmental sound levels and provides real-time insights using AI-driven processing and data visualization.",
+    tech: ["AI/ML", "Python", "Data Analysis", "Real-Time Monitoring"],
+    link: "#"
+  },
+  {
+    title: "Digital Twin",
+    subtitle: "AI-Powered Infrastructure Simulation",
+    description: "Built an ANN-based deep learning system trained on real-world water supply datasets to simulate pipeline operations and predict real-time leak detection and supply-demand fluctuations.",
+    tech: ["Deep Learning", "ANN", "Python", "Flask", "Data Simulation"],
+    link: "https://github.com/Harshita-Chy/Digital_Twin.git"
+  },
+  {
+    title: "ChatSync",
+    subtitle: "Real-Time Chat Application",
+    description: "Developed a real-time chat system enabling instant message delivery with persistent message history for concurrent users. Implemented JWT authentication and optimized React state updates.",
+    tech: ["React.js", "Node.js", "Socket.io", "MongoDB"],
+    link: "#"
+  },
+  {
+    title: "To-Do List Web App",
+    subtitle: "Smart Productivity Engine",
+    description: "Engineered a responsive task manager with drag-and-drop functionality and offline synchronization using Local Storage for a seamless productivity experience.",
+    tech: ["HTML5", "CSS3", "JavaScript"],
+    link: "#"
+  },
+  {
+    title: "AI Chatbot",
+    subtitle: "Real-Time Virtual Assistant",
+    description: "Developed an AI chatbot using NLP APIs and event-driven architecture with asynchronous API calls to deliver low-latency conversational interactions.",
+    tech: ["JavaScript", "REST APIs", "NLP"],
+    link: "#"
+  }
+]
+
+
 
   return (
     <div id="projects" className="py-20 flex flex-col items-center">
